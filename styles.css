@@ -11,7 +11,8 @@
   --frame-bg: #fff;
   --frame-border: #c9b99a;
   --frame-shadow: rgba(0, 0, 0, 0.15);
-  --font-title: 'Myriad Pro', 'Myriad', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-title: 'Ubuntu', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-mono: 'Ubuntu Mono', 'Consolas', 'Courier New', monospace;
   --font-body: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -234,9 +235,9 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-family: var(--font-title);
+  font-family: var(--font-mono);
   font-size: 1.05rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--text-primary);
   text-decoration: none;
   padding: 8px 0;
