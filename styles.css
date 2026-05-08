@@ -208,6 +208,40 @@ body {
   color: var(--text-primary);
 }
 
+.gpa-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  background: linear-gradient(135deg, #f9e547 0%, #d4a017 50%, #f9e547 100%);
+  background-size: 200% 200%;
+  animation: shimmer 3s ease-in-out infinite;
+  color: #3a2500;
+  padding: 6px 18px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgba(212, 160, 23, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.gpa-number {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.gpa-label {
+  font-family: var(--font-title);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@keyframes shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
 .tagline {
   font-family: var(--font-title);
   font-size: 1.15rem;
